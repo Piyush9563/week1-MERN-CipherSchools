@@ -1,0 +1,8 @@
+git --version //to check version of git installed on system
+git init //To intialize new git repositry and track changes in it
+
+//workflow  
+//INtialization
+//Modification/adding
+//staging
+//commit
