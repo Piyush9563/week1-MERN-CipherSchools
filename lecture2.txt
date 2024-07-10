@@ -1,0 +1,8 @@
+git status  //to check tracked/untracked files
+git add index.html  //to add and stage index.html files
+git rm --cached index.html //remove from staging zone to untracked
+git commit -m "Initial Commit"  //to commit changes in repositry with message
+git log //to check details of commmit
+
+git config --global user.name "Piyush"  //configure username globally
+git config --global user.mail "piyushsharma0139@gmail.com"   //configure email
