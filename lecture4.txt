@@ -1,0 +1,12 @@
+git checkout //Safe command do not alter history
+git checkout master //  to go to current status
+git revert   //To go back to initial commit
+git --abort revert
+git reset --hard 6bf566a //unsafe command remove history
+git branch //listing branches
+git branch 
+git branch dev1 //to create a branch other than main branch
+git checkout dev1 // to switch to other branch
+git checkout master //switch to master branch Create branch at main head
+git checkout-b dev-2 //create and checkout
+git status //to check status of each branch
