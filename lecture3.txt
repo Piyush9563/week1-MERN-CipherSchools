@@ -1,0 +1,7 @@
+git log --oneline
+git add .
+//checkout do not alter history
+git checkout 1106db3 //To move head to previous commit to make changes 
+git checkout master //To go to last commit
+git add .
+git commit -m "New style2.css"
