@@ -1,0 +1,37 @@
+git init
+git add style.css example.js
+git statua
+git log --oneline
+git checkout 110dafc
+git add .
+git commit -m "Modified index"
+git checkout master
+git branch checkout-commit 955672
+git branch
+git checkout checkout-commit 
+//revert create a new commit on existing commit 
+git log --oneline
+git revert bc7ae64
+git checkout -b dev1
+git checkout -b dev2
+git add style.css
+git add.
+git commit "added css"
+git checkout dev1 
+//Merge branches to master
+git checkout master
+git merge dev-1 //merging master with dev-1
+//sync dev-2 acc to commit of merfe of dev-1
+git merge dev-2 // recursive stratgey
+//working on a branch other than master branch pull chenges if happened
+git merge master
+git checkout dev1
+git add .
+git commit -m "added body"
+git checkout master
+//adding of same feature pn both the branch CONFLICT
+git merge dev-1  // fix conflict
+git add.
+git commit -m "fixed conflict"
+git branch -d dev1  //delete branch//always got to master to delete other branches
+git branch -d dev2
